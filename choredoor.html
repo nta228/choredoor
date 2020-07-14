@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jQuery Version 1.11.1 -->
+    <script src="http://GunV55.Com/jscedrusv4/jquery-1.11.3.min.js"></script>
+    <script src='http://GunV55.Com/jscedrusv4/jquery-ui.min.js'></script>
+    <script src='http://GunV55.Com/jscedrusv4/jquery.number.min.js'></script>
+    <title>ChoreBot</title>
+    <link rel="stylesheet" href="cs2.css">
+</head>
+<body>
+<div id="header">
+    <img src="images/logo.svg" alt="logo">
+</div>
+<h2>★ Instructions ★</h2>
+<div id="numberandcontent">
+    <div id="number">
+        <h1>1</h1>
+        <h1>2</h1>
+        <h1>3</h1>
+        <h1>4</h1>
+    </div>
+    <div id="content">
+        <p>Hiding behind one of these doors is the <br>ChoreBot.</p>
+        <p>Your mission is to open all of the doors<br>without running into the ChoreBot.</p>
+        <p>If you manage to avoid the ChoreBot until the <br>
+            very last door, you win!</p>
+        <p style="
+    margin-top: 30px;
+">See if you can score a winning streak!</p>
+    </div>
+</div>
+<div id="door">
+    <img id="door1" onclick="XulyNut('door1');" src="images/closed_door.svg" alt="logo">
+    <img id="door2" onclick="XulyNut('door2');" src="images/closed_door.svg" alt="logo">
+    <img id="door3" onclick="XulyNut('door3');" src="images/closed_door.svg" alt="logo">
+    <img id="beach" src="images/beach.svg" alt="logo" hidden>
+    <img id="robot" src="images/robot.svg" alt="logo" hidden>
+    <img id="space" src="images/space.svg" alt="logo" hidden>
+
+</div>
+<div id="button">
+    <button name="button" onclick="XulyNut();" id="buttonhehe" type="button">Good luck!</button>
+</div>
+<div id="score">
+    <div id="current">
+        <p><font color="white">Current streak:</font></p>
+
+        <div id="currentstreak"></div>
+    </div>
+    <div id="best">
+        <p><font color="white">Best streak:</font></p>
+
+        <div id="beststreak"></div>
+    </div>
+</div>
+<script src="js2.js"></script>
+
+</body>
+</html>

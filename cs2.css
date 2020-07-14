@@ -1,0 +1,76 @@
+#header{
+    background-color: #00cbca;
+    width: 101%;
+    margin-top: -8px;
+    margin-left: -8px;
+    text-align:center;
+}
+body{
+    background-color: #000046;
+    color: #00cbca;
+    font-family: Arial;
+}
+h2{
+    text-align: center;
+    margin-top: 61px;
+}
+#number{
+    margin-left: 400px;
+}
+#content {
+    color: white;
+    margin-top: -224px;
+    margin-left: 476px;
+}
+#numberandcontent{
+    margin-left: 155px;
+}
+#door{
+    text-align:center;
+}
+svg{
+    padding:15px;
+}
+button{
+    background-color: #b74624;
+    border:none;
+    border-radius: 0px;
+    width: 122px;
+    height: 54px;
+    font-size: 21px;
+}
+#button{
+    text-align : center;
+
+}
+#currentstreak{
+    color: black;
+    background-color: #00cbca;
+    width: 64px;
+    font-size: xxx-large;
+    text-align: center;
+    height: 64px;
+    margin-left: 18px;
+}
+#current{
+    margin-left:414px;
+}
+#beststreak{
+    color: black;
+    background-color: #00cbca;
+    width: 64px;
+    font-size: xxx-large;
+    text-align: center;
+    height: 64px;
+    margin-left: 18px;
+}
+#best{
+    margin-left: 556px;
+    margin-top: -114px;
+}
+#score{
+    margin-left: 226px;
+}
+img{
+    padding : 15px;
+}
